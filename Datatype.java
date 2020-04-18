@@ -5,6 +5,6 @@ public class Datatype {
 		System.out.println("6");//String6
 		System.out.println(6+6);//12
 		System.out.println("6"+"6");//66
-		System.out.println("1111".length());4
+		System.out.println("1111".length())//4
 	}
 }
