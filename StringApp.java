@@ -9,7 +9,9 @@ public class StringApp {
 		System.out.println("H");//String
 		
 		System.out.println("Hello"+ "World");
-		System.out.println("Hello \nWorld");//new line
+		//new line
+		System.out.println("Hello \nWorld");
+		//escape
 		System.out.println("Hello \"World\"");//Hello "World"
 
 	}
