@@ -8,8 +8,8 @@ import org.opentutorials.iot.Lighting;
 public class JavaGoHomeInput {
 
 	public static void main(String[] args) {
-		String id =JOptionPane.showInputDialog("enter an id");
-		String bright =JOptionPane.showInputDialog("enter an brightness");
+		String id =args[0];//'java apt 705'
+		String bright =args[1];//'30'
 		//elevator call
 		Elevator myElevator = new Elevator(id);
 		myElevator.callForUp(1);
