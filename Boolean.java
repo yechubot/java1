@@ -13,6 +13,13 @@ public class Boolean {
 		
 		System.out.println(foo.contains("world"));
 		System.out.println(foo.contains("yeeun"));
+		
+		boolean user = true;
+		if(user) {
+			System.out.println("it is true");
+		}else {
+			System.out.println("it is false");
+		}
 	}
 	
 
